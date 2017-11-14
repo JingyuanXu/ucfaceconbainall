@@ -100,7 +100,7 @@ public class face {
                     FileReader fr = new FileReader(queryRqFile);
                     int ch = 0;  
                     while((ch = fr.read())!=-1 ){  
-                        System.out.print( (char)ch );  
+                       // System.out.print( (char)ch );  
                     } 
                     fr.close();
                 } catch (IOException e2) {

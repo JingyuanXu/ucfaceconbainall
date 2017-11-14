@@ -39,11 +39,13 @@ public class testconn {
 		//when use sparql, write like this for special rangeS
 		/*PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 			PREFIX vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
-			SELECT ?class ?d ?z
+			SELECT ?z ?d
 			WHERE { ?class vcard:Homeless ?d. 
 			              ?class vcard:Area ?z.
 			Filter regex (str(?class), '2011')
-			}*/
+			}
+			
+			*/
 		DefaultPieDataset dataset=new DefaultPieDataset();
            Class.forName("org.h2.Driver"); 
 		   Connection conn = DriverManager.getConnection("jdbc:h2:mem:test", "sa", "");
@@ -62,7 +64,7 @@ public class testconn {
 				   sqlt+=metacolumn.getColumnLabel(k); 
 			   }
 		   }
-		   System.out.print(sqlt);
+		  // System.out.print(sqlt);
 		   ResultSet rs=stmt.executeQuery("select distinct "+sqlt+" from CSVREAD('./db/coutput.csv')");
 		   ResultSetMetaData meta=rs.getMetaData();   
 		   while(rs.next()) {	
