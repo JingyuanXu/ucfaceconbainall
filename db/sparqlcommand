@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT *
+WHERE { 
+  ?class vcard:Area ?d.
+  ?class vcard:Homeless ?z.
+}
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT ?class ?d ?z
+WHERE { ?class vcard:Homeless ?d. 
+              ?class vcard:Area ?z.
+Filter regex (str(?class), '2011')
+}

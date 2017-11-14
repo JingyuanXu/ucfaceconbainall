@@ -1,0 +1,132 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://testcase/2012/6#2012">
+    <vcard:Homeless>86</vcard:Homeless>
+    <vcard:Area>Surface Area - Queens </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/13#2011">
+    <vcard:Homeless>128</vcard:Homeless>
+    <vcard:Area>Surface Area - Staten Island </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/25#2009">
+    <vcard:Homeless>777</vcard:Homeless>
+    <vcard:Area>Surface Area - Manhattan </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/30#2009">
+    <vcard:Homeless>98</vcard:Homeless>
+    <vcard:Area>Surface Area - Queens </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/9#2011">
+    <vcard:Homeless>786</vcard:Homeless>
+    <vcard:Area>Surface Area - Manhattan </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/8#2012">
+    <vcard:Homeless>169</vcard:Homeless>
+    <vcard:Area>Surface Area - Bronx </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/4#2012">
+    <vcard:Homeless>1628</vcard:Homeless>
+    <vcard:Area>Surface Total </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/20#2010">
+    <vcard:Homeless>428</vcard:Homeless>
+    <vcard:Area>Surface Area - Brooklyn </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/16#2011">
+    <vcard:Homeless>2648</vcard:Homeless>
+    <vcard:Area>Total Unsheltered Individuals </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/23#2010">
+    <vcard:Homeless>2034</vcard:Homeless>
+    <vcard:Area>Surface Total </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/18#2010">
+    <vcard:Homeless>1145</vcard:Homeless>
+    <vcard:Area>Surface Area - Manhattan </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/21#2010">
+    <vcard:Homeless>112</vcard:Homeless>
+    <vcard:Area>Surface Area - Queens </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/32#2009">
+    <vcard:Homeless>164</vcard:Homeless>
+    <vcard:Area>Surface Area - Bronx </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/11#2011">
+    <vcard:Homeless>242</vcard:Homeless>
+    <vcard:Area>Surface Area - Brooklyn </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/2#2012">
+    <vcard:Homeless>3262</vcard:Homeless>
+    <vcard:Area>Total Unsheltered Individuals </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/27#2009">
+    <vcard:Homeless>968</vcard:Homeless>
+    <vcard:Area>Subways </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/14#2011">
+    <vcard:Homeless>1373</vcard:Homeless>
+    <vcard:Area>Surface Total </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/7#2012">
+    <vcard:Homeless>368</vcard:Homeless>
+    <vcard:Area>Surface Area - Brooklyn </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/5#2012">
+    <vcard:Homeless>99</vcard:Homeless>
+    <vcard:Area>Surface Area - Staten Island </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/29#2009">
+    <vcard:Homeless>121</vcard:Homeless>
+    <vcard:Area>Surface Area - Staten Island </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/24#2010">
+    <vcard:Homeless>1077</vcard:Homeless>
+    <vcard:Area>Subways </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/19#2010">
+    <vcard:Homeless>174</vcard:Homeless>
+    <vcard:Area>Surface Area - Bronx </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/22#2010">
+    <vcard:Homeless>175</vcard:Homeless>
+    <vcard:Area>Surface Area - Staten Island </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/3#2012">
+    <vcard:Homeless>1634</vcard:Homeless>
+    <vcard:Area>Subways </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/31#2009">
+    <vcard:Homeless>200</vcard:Homeless>
+    <vcard:Area>Surface Area - Brooklyn </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/28#2009">
+    <vcard:Homeless>1360</vcard:Homeless>
+    <vcard:Area>Surface Total </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2009/26#2009">
+    <vcard:Homeless>2328</vcard:Homeless>
+    <vcard:Area>Total Unsheltered Individuals </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/10#2011">
+    <vcard:Homeless>115</vcard:Homeless>
+    <vcard:Area>Surface Area - Bronx </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2010/17#2010">
+    <vcard:Homeless>3111</vcard:Homeless>
+    <vcard:Area>Total Unsheltered Individuals </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/12#2011">
+    <vcard:Homeless>102</vcard:Homeless>
+    <vcard:Area>Surface Area - Queens </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2012/1#2012">
+    <vcard:Homeless>906</vcard:Homeless>
+    <vcard:Area>Surface Area - Manhattan </vcard:Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://testcase/2011/15#2011">
+    <vcard:Homeless>1275</vcard:Homeless>
+    <vcard:Area>Subways </vcard:Area>
+  </rdf:Description>
+</rdf:RDF>

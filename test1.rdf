@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+]>
+
+<rdf:RDF xmlns="http://www.example.org/message#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:xsd ="http://www.w3.org/2001/XMLSchema#">
+
+<owl:Ontology rdf:about="">
+<rdfs:comment>The Common Alerting Protocol Ontology</rdfs:comment>
+<rdfs:label>CAP Ontology</rdfs:label>
+</owl:Ontology>
+
+<owl:Class rdf:ID="Message">
+<rdfs:label>CAP alert message</rdfs:label>
+<rdfs:comment>...</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="AlertStatus">
+<owl:oneOf rdf:parseType="Collection">
+<owl:Thing rdf:about="#Actual" />
+<owl:Thing rdf:about="#Exercise" />
+<owl:Thing rdf:about="#System" />
+<owl:Thing rdf:about="#Test" />
+<owl:Thing rdf:about="#Draft" />
+</owl:oneOf>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:ID="hasSender">
+<rdfs:domain rdf:resource="#Message" />
+<rdfs:range rdf:resource="&xsd;string" />
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:ID="hasStatus">
+<rdfs:domain rdf:resource="#Message"/>
+<rdfs:range rdf:resource="#AlertStatus"/>
+</owl:ObjectProperty>
+
+<Message rdf:ID="KSTO1055887203">
+<hasSender>KSTO</hasSender>
+<hasStatus rdf:resource="#Actual"/>
+</Message>
+
+<Message rdf:ID="KAR0-0306112239-SW">
+<hasSender>KARO</hasSender>
+<hasStatus rdf:resource="#Actual"/>
+</Message>
+
+</rdf:RDF>
