@@ -14,7 +14,6 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-
 import java.io.*;
 import java.util.*;
 import java.util.List;
